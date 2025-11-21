@@ -1,0 +1,62 @@
+# .gitignore
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.lcov
+
+# Production
+dist/
+build/
+out/
+
+# Tauri
+src-tauri/target/
+src-tauri/WixTools/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Rust
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Build artifacts
+*.exe
+*.dmg
+*.deb
+*.AppImage
+*.rpm
+*.msi
